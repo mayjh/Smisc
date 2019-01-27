@@ -1,0 +1,50 @@
+---
+title: "Basic Report"
+author: "May Shen"
+date: '`r Sys.Date()`'
+output:
+  html_document:
+    code_folding: hide
+    fig_height: 10
+    fig_width: 10
+    theme: cerulean
+    toc: yes
+    toc_float:
+      collapsed: yes
+---
+
+```{r setup, include=FALSE}
+## load libraries
+library(data.table)
+library(DT)
+library(dplyr)
+library(kableExtra)
+library(ggplot2)
+library(gridExtra)
+library(knitr)
+library(maps)
+## knit options
+knitr::opts_chunk$set(echo = TRUE, warning = F, error = F, fig.width=8, fig.height=6)
+```
+
+## Introduction
+
+## The Data
+
+```{r}
+
+```
+
+## Data Pre-Processing
+
+```{r}
+
+```
+
+## Data Visualization
+
+```{r}
+
+```
+
+## Discussion
